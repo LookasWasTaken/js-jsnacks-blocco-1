@@ -6,7 +6,7 @@ console.log(firstNumber, "Primo numero", secondNumber, "Secondo numero")
 if (firstNumber > secondNumber) {
     console.log(`Il primo numero ${firstNumber} è maggiore del secondo ${secondNumber}`)
 } else if (secondNumber > firstNumber) {
-    console.log(`Il secondo numero ${firstNumber} è maggiore del primo ${secondNumber}`)
+    console.log(`Il secondo numero ${secondNumber} è maggiore del primo ${firstNumber}`)
 } else {
     console.log("Stesso Numero")
 }
