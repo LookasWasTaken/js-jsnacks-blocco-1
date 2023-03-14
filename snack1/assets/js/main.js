@@ -4,9 +4,9 @@ let secondNumber = prompt("Inserire un secondo numero")
 console.log(firstNumber, "Primo numero", secondNumber, "Secondo numero")
 
 if (firstNumber > secondNumber) {
-    console.log(firstNumber, "Vince il primo numero")
+    console.log(`Il primo numero ${firstNumber} è maggiore del secondo ${secondNumber}`)
 } else if (secondNumber > firstNumber) {
-    console.log(secondNumber, "Vince il secondo numero")
+    console.log(`Il secondo numero ${firstNumber} è maggiore del primo ${secondNumber}`)
 } else {
     console.log("Stesso Numero")
 }
